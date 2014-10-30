@@ -1,4 +1,4 @@
-require_relative 'werewolf'
+require_relative '../werewolf'
 
 describe Werewolf do
 
@@ -47,7 +47,7 @@ describe Werewolf do
       @werewolf.change!
       expect(@werewolf.werewolf?).to be
     end
-    
+
 
   end
 

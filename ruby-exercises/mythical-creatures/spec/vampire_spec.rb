@@ -1,4 +1,4 @@
-require_relative 'vampire'
+require_relative '../vampire'
 
 describe Vampire do
 
@@ -32,5 +32,5 @@ describe Vampire do
     vampire.drink
     expect(vampire.thirsty?).to eq(false)
   end
-  
+
 end

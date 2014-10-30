@@ -1,4 +1,4 @@
-require_relative 'hobbit'
+require_relative '../hobbit'
 
 describe Hobbit do
 
@@ -42,5 +42,5 @@ describe Hobbit do
     hobbit.celebrate_birthday
     expect(hobbit.adult?).to eq(true)
   end
-  
+
 end

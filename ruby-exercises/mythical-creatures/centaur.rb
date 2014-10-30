@@ -16,7 +16,6 @@ class Centaur
       @tired += 1
       "Twang!!!"
     end
-
   end
 
   def run
@@ -26,16 +25,10 @@ class Centaur
       @tired += 1
       "Clop clop clop clop!!!"
     end
-
   end
 
   def cranky?
-    if @tired > 2
-      true
-    else
-      false
-    end
-
+    @tired > 2 ? true : false
   end
 
   def standing?
@@ -43,12 +36,7 @@ class Centaur
   end
 
   def sleep
-    if standing?
-      "NO!"
-    else
-      @tired = 0
-    end
-
+    standing? ? "NO!" : @tired = 0
   end
 
   def lay_down

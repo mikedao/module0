@@ -1,4 +1,4 @@
-require_relative 'unicorn'
+require_relative '../unicorn'
 
 describe Unicorn do
 

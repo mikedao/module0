@@ -16,6 +16,4 @@ class Vampire
     @thirsty = false
   end
   
-
-
 end

@@ -1,4 +1,4 @@
-require_relative 'pirate'
+require_relative '../pirate'
 
 describe Pirate do
 

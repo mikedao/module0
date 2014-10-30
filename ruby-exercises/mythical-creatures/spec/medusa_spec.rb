@@ -1,4 +1,4 @@
-require_relative 'medusa'
+require_relative '../medusa'
 
 describe Medusa do
 
@@ -41,7 +41,7 @@ describe Medusa do
       @medusa.stare(@victim)
       expect(@victim.stoned?).to be
     end
-    
+
   end
 
 

@@ -1,4 +1,4 @@
-require_relative 'wizard'
+require_relative '../wizard'
 
 describe Wizard do
 
@@ -31,5 +31,5 @@ describe Wizard do
     wizard = Wizard.new("Rob", bearded: false)
     expect(wizard.incantation("rm -rf /home/mirandax")).to eq("sudo rm -rf /home/mirandax")
   end
-  
+
 end

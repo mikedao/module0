@@ -1,4 +1,4 @@
-require_relative 'dragon'
+require_relative '../dragon'
 
 describe Dragon do
 

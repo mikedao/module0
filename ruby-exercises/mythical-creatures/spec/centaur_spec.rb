@@ -1,4 +1,4 @@
-require_relative 'centaur'
+require_relative '../centaur'
 
 describe Centaur do
 
