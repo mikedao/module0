@@ -11,16 +11,15 @@ class Medusa
   end
 
   def stare(victim)
-    victim.stoned = true
+    victim.stoned
     statues << victim
   end
 
 end
 
 class Person
-  attr_reader :name
-  attr_accessor :stoned
-  
+  attr_reader :name, :stoned
+
   def initialize(name)
     @name = name
     @stoned = false
@@ -28,6 +27,10 @@ class Person
 
   def stoned?
     @stoned == true
+  end
+
+  def stoned
+    @stoned = true
   end
 
 

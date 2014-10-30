@@ -10,14 +10,13 @@ class Centaur
   end
 
   def shoot
-    if cranky?
-      "NO!"
-    elsif laying?
+    if cranky? || laying?
       "NO!"
     else
       @tired += 1
       "Twang!!!"
     end
+
   end
 
   def run
@@ -63,7 +62,4 @@ class Centaur
   def stand_up
     @standing = true
   end
-
-
-
 end
