@@ -1,5 +1,4 @@
 class Medusa
-
   attr_reader :statues
 
   def initialize(name)
@@ -32,6 +31,5 @@ class Person
   def stoned
     @stoned = true
   end
-
 
 end

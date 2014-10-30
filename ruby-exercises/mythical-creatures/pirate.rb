@@ -15,11 +15,7 @@ attr_reader :name, :job
 
   def commit_heinous_act
     @acts += 1
-    if @acts > 2
-      @cursed = true
-    else
-      @cursed = false
-    end
+    @acts > 2 ? @cursed = true : @cursed = false
   end
 
 

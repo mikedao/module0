@@ -13,15 +13,9 @@ class Dragon
     @hungry == true
   end
 
-
   def eat
     @food += 1
-    if @food > 2
-      @hungry = false
-    end
+    @food > 2 ? @hungry = false : hungry = true
   end
-
-
-
 
 end
