@@ -4,12 +4,8 @@ def sum_of_squares(limit)
     array[n] = n
   end
 
-  array.each do |n|
-   array[n] = array[n].to_i * array[n].to_i
-  end
-
   sum = 0
-  array.each { |a| sum += a}
+  array.each { |a| sum += a * a}
   return sum
 end
 
